@@ -1,12 +1,8 @@
 import Head from "next/head";
 import Link from "next/dist/client/link";
-import Image from "next/dist/client/image";
-import Card from "../components/Card";
-import ClientsCard from "../components/ClientsCard";
-import Footer from "../components/Footer";
-import Featured from "../components/Featured";
-import WhyChooseUS from "../components/WhyChooseUS";
-import Capabilities from "../components/Capabilities";
+import Featured from "../components/HomePage/Featured";
+import WhyChooseUS from "../components/HomePage/WhyChooseUS";
+import Capabilities from "../components/HomePage/Capabilities";
 
 export default function Home() {
   return (
@@ -17,20 +13,20 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div class="mt-30">
-        <div class="max-w-[1350px] px-6 mx-auto grid grid-cols-3 md:grid-cols-2 items-center h-screen-0.95 pt-40 ">
-          <div class="col-span-2 md:col-span-1 md:pr-14 xl:pr-20 2xl:pr-36">
-            <h1 class="text-2xl md:text-4xl font-semibold">
-              <span class="block">DIGITAL </span>
-              <span class="block">TRANSFORMATION</span>
+      <div className="mt-30">
+        <div className="max-w-[1350px] px-6 mx-auto grid grid-cols-3 md:grid-cols-2 items-center h-screen-0.95 pt-40 ">
+          <div className="col-span-2 md:col-span-1 md:pr-14 xl:pr-20 2xl:pr-36">
+            <h1 className="text-2xl md:text-4xl font-semibold">
+              <span className="block">DIGITAL </span>
+              <span className="block">TRANSFORMATION</span>
             </h1>
-            <p class="mt-8  text-textSecondary leading-7 text-lg">
+            <p className="mt-8  text-textSecondary leading-7 text-lg">
               Based in Addis Ababa,Ethiopia we work Entrepreneurs, SMEs and
               large organizations globally to build their digital presence,
               expand their reach and grow their businesses.
             </p>
             <Link href="/our-works">
-              <div class="btn-blue mt-5 hover:bg-sky-700 cursor-pointer">
+              <div className="btn-blue mt-5 hover:bg-sky-700 cursor-pointer">
                 Our Works
               </div>
             </Link>
@@ -47,8 +43,7 @@ export default function Home() {
       {/* Featured */}
       <Featured />
 
-      {/* Footer */}
-      <Footer />
+   
     </div>
   );
 }

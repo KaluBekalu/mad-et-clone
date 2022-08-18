@@ -1,5 +1,5 @@
 import React from "react";
-import Card from './ClientsCard'
+import Card from '../Misc/ClientsCard'
 
 
 const customers = [

@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "./Card";
+import Card from "../Misc/Card";
 
 const cardData = [
   {
@@ -28,7 +28,7 @@ function Capabilities() {
       </h3>
       <div className="columns-3 px-40 justify-center ">
         {cardData.map((i) => {
-          return <Card data={i} />;
+          return <Card key={i.title} data={i} />;
         })}
       </div>
     </div>

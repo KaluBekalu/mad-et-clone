@@ -9,7 +9,7 @@ function Card({ data }) {
       <h2 className="w-40 mx-auto text-center border-b-2 mb-10" />
       <ul className="list-disc ml-6 ">
         {items.map((i) => (
-          <li className="text-m md:text-base text-gray-500 ml-3">{i}</li>
+          <li key={items} className="text-m md:text-base text-gray-500 ml-3">{i}</li>
         ))}
       </ul>
     </div>
