@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 Live Demo: https://mad-et-clone.herokuapp.com/
 ## Getting Started
 
-First, install the depencies by running:
+First, install the dependencies by running:
 
 ```bash
 npm install
