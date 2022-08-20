@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Link from "next/dist/client/link";
+import Link from 'next/link'
 import Featured from "../components/HomePage/Featured";
 import WhyChooseUS from "../components/HomePage/WhyChooseUS";
 import Capabilities from "../components/HomePage/Capabilities";

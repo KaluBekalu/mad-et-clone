@@ -3,10 +3,12 @@ import Card from "../Misc/Card";
 
 const cardData = [
   {
+    key:0,
     title: "DESIGN",
     items: ["Web & App Design", "UX / UI Design", "Graphics & Illustration"],
   },
   {
+    key:1,
     title: "DEVELOPMENT",
     items: [
       "Web & App Development",
@@ -15,6 +17,7 @@ const cardData = [
     ],
   },
   {
+    key:2,
     title: "MARKETING",
     items: ["SEO Consultation", "SEO / SMO"],
   },
@@ -28,7 +31,7 @@ function Capabilities() {
       </h3>
       <div className="columns-3 px-40 justify-center ">
         {cardData.map((i) => {
-          return <Card key={i.title} data={i} />;
+          return <Card key={i.key} data={i}  />;
         })}
       </div>
     </div>

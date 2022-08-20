@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer className="relative z-20">
       <div className="bg-blue-600">
-        <footer className="max-w-[1350px] px-6 mx-auto py-12 md:py-24  w-full relative overflow-hidden">
+        <footer className="max-w-[1350px]  mx-auto py-12 md:py-24  w-full relative overflow-hidden">
           <div className="grid grid-cols-1 lg:grid-cols-2 h-full gap-8">
             <div className="w-full col-span-2 xl:col-span-1 order-2 md:order-1">
               <h6 className="text-white text-xl font-bold text-left">
