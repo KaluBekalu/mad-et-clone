@@ -9,6 +9,7 @@ function Card({ image, width, height }) {
       <div className="justify-center items-center flex ">
         <Image 
         className=""
+        alt="card image"
         src={image} width={width} height={height} />
       </div>
     </div>

@@ -10,10 +10,7 @@ import {
 import { useRouter } from "next/router";
 
 function Navbar() {
-  const router = useRouter();
-  useEffect(() => {
-    console.log(router);
-  }, []);
+
   return (
     <header className="flex bg-gray-100 align-middle sticky">
       <div className="max-w-[1350px] w-full self-center m-auto flex justify-between">

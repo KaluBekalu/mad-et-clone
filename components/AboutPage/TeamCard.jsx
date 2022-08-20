@@ -6,7 +6,7 @@ function TeamCard({ member }) {
 
   return (
     <div className="my-5">
-      <Image src={image} width={290} height={288} />
+      <Image src={image} width={290} height={288} alt="card image" />
       <p className="text-center text-xl mt-4">{name}</p>
     </div>
   );

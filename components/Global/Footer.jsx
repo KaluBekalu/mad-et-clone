@@ -11,7 +11,7 @@ function Footer() {
                 Conquer New Peaks
               </h6>
               <p className="mt-5 xl:w-1/2 text-white">
-                In today's era of rapid growth in digital technology, You can
+                In today&apos;s era of rapid growth in digital technology, You can
                 never go wrong Digitizing your product.
               </p>
               <ul className="mt-12 md:mt-24 xl:mt-48 text-white flex flex-wrap gap-6">

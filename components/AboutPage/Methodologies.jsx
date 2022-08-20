@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 function Methodologies() {
-  const [selected, setSelected] = useState(1);
+  const [selected, setSelected] = useState(0);
 
   const data = [
     {
